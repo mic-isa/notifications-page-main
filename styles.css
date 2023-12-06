@@ -85,7 +85,6 @@ h4 {
 
 p {
   margin-bottom: 0.125rem;
-  /*color: var(--clr-light-grayish-blue-1);*/
 }
 h5 {
     font-size: 1.0rem;
@@ -101,7 +100,7 @@ h5 {
     font-size: 1.75rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   h5 {
     font-size: 0.925rem;
@@ -143,55 +142,52 @@ Notifications
     }
     .notification-text p {
         font-size: 0.95rem;
-      }
-      .red-dot::after {
+    }
+    .red-dot::after {
         width: 5px; 
         height: 5.1px;
         top: 7px;
         right: -10px; 
-      }
+    }
     
 }
-
-  .notification {
+.notification {
     background: var(--clr-light-grayish-blue-1);
     border-radius: var(--radius);
     padding: 0.50rem 1.5rem 0 0.5rem;
     margin-bottom: 0.30rem;
     display: flex;
     align-items: center;
-  }
-  .notification-1 {
+}
+.notification-1 {
     padding: 0.50rem 1.5rem 0 0.5rem;
     margin-bottom: 0.30rem;
     display: flex;
     align-items: center;
-  }
-  .notification-title {
+}
+.notification-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: capitalize;
     padding-bottom: 1rem;
-  }
-  
-  .read-notification{
+}
+.read-notification{
     background: var(--clr-primary-bblue);
     color:var(--clr-white) ;
     border-radius: var(--radius);
-    padding: 0.2rem 0.3rem;
-    font-size: 0.85rem;
-    margin-left: 1rem;
-  }
-
-  .notification img {
+    padding: 0.1rem 0.45rem 0.1rem 0.452rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.notification img {
     width: 30px; 
     height: 30px; 
     border-radius: 50%; 
     margin-right: 10px;
     margin-bottom: 0.15rem 
 }
-
 .notification-1 img {
     width: 30px; 
     height: 30px; 
@@ -199,17 +195,14 @@ Notifications
     margin-right: 10px; 
     margin-bottom: 0.15rem 
 }
-
 .name{
     color: black;
     font-weight: 800;
 }
-
 .Chess{
     color: var(--clr-primary-bblue);
     font-weight: 800;
 }
-
 .game{
     color:var(--clr-dark-blue);
     font-weight: 800;
@@ -222,50 +215,41 @@ Notifications
 .read{
     font-weight: 500;
 }
-
 .red-dot {
     display: inline-block;
     position: relative;
-  }
-
-  .red-dot::after {
+}
+.red-dot::after {
     content: ''; 
     display: inline-block;
     width: 5px; 
-    height: 5.1px;
+    height: 5px;
     background-color: var(--clr-primary-red);
     border-radius: 50%; 
     position: absolute; 
-    top: 6px;
-    right: -5.5px; 
-    
-  }
-
+    top: -6px;
+    right: -5.5px;  
+}
 .timestamp {
     color: var(--clr-grayish-blue); 
     font-size: 0.75rem; 
 }
-
-  .notification-text {
+.notification-text {
     padding: 0rem 0 1.5rem 0;
     margin-bottom: -1.10rem;
-  }
-
-  .notification-text p {
+}
+.notification-text p {
     margin-bottom: 0;
     color: var(--clr-dark-purple);
     font-size: 0.85rem;
-  }
-
-  
-
-  .notification-text{
+}
+.notification-text{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .notification-text p{
+.notification-text p{
     background-color: var(--clr-white);
     border-radius: var(--radius);
     border: 1px solid var(--clr-light-grayish-blue-1);
@@ -274,28 +258,25 @@ Notifications
     align-items: center;
     padding: 0.5rem;
     font-size: 0.65rem;
-  }
-  .notification-text p:hover{
+}
+.notification-text p:hover{
     background-color: var(--clr-light-grayish-blue-1);
-  }
- 
-  .notification-content {
+}
+.notification-content {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    width: 100%;
 }
-
 .notification-content p {
     margin: 0; 
 }
-
 .notification-content img {
     width: 40px; 
     border-radius: 20%; 
     height: 40px; 
     margin-left: auto;
-    ;
 }
 
-/* hide text */
+
 
