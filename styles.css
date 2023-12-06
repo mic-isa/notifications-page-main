@@ -227,7 +227,7 @@ Notifications
     background-color: var(--clr-primary-red);
     border-radius: 50%; 
     position: absolute; 
-    top: -6px;
+    top: -7px;
     right: -5.5px;  
 }
 .timestamp {
